@@ -42,14 +42,14 @@ body {
 }
 
 #inicio {
-    color: ivory;
-    font-size: 6rem;
-    font-family: "roboto", sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-justify: auto;
-    letter-spacing: 4px;
-    margin: 30px;
+  color: ivory;
+  font-size: 6rem;
+  font-family: "roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-justify: auto;
+  letter-spacing: 4px;
+  margin: 30px;
 }
 
 .redes {
@@ -99,15 +99,15 @@ body {
 .navega {
   display: flex;
   width: 100%;
-  height: 20rem;
+  height: auto;
   justify-content: center;
   align-items: center;
-  margin-bottom: 150px;
+  margin-bottom: 9rem;
 }
 
 .navega--menu {
   width: 28%;
-  height: 20rem;
+  height: auto;
   margin: 12px;
   border: 3px solid ivory;
   border-radius: 8px;
@@ -119,19 +119,19 @@ body {
 
 .navega--menu img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: fill;
+  
 }
 
 .navega--menu .hover {
   width: 0%;
-  height: 20rem;
+  height: 21rem;
   background-color: rgb(2, 0, 36, 0.6);
   display: flex;
   position: absolute;
   top: 0;
   align-items: center;
-  justify-items: center;
   overflow: hidden;
   transition: 0.5s all;
 }
@@ -142,7 +142,7 @@ body {
 }
 
 .navega--menu:hover .hover {
-  width: 50%;
+  width: 30%;
 }
 
 .boton {
@@ -153,10 +153,13 @@ body {
 
 .servicios {
   text-align: center;
-  font-size: 21px;
+  font-size: 25px;
   padding: 50px;
+  line-height: 1.5;
 }
-
+.servicios h2{
+  padding-bottom: 10px;
+}
 .img_servicios {
   display: flex;
   justify-content: center;
@@ -165,12 +168,19 @@ body {
 .img_servicios img {
   width: 500px;
   padding: 50px;
+
 }
 
 .nosotros {
   text-align: center;
-  font-size: 21px;
+  font-size: 25px;
   padding: 50px;
+  line-height: 1.5;
+}
+.nosotros h2{
+  padding-bottom: 10px;
+  font-size: 36px;
+  font-family: "roboto", sans-serif;
 }
 
 .img_nosotros {
@@ -179,7 +189,7 @@ body {
 }
 
 .img_nosotros img {
-  width: 500px;
+  width: 30%;
   padding: 50px;
 }
 
@@ -207,4 +217,9 @@ body {
 .contacto--mail {
   font-size: 20px;
   padding-bottom: 2rem;
+}
+#piensa {
+  text-align: center;
+  margin: 80px;
+  font-size: 40px;
 }
